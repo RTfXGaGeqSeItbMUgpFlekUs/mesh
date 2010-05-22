@@ -1,9 +1,9 @@
 (defpackage #:mesh.goof
   (:use :cl)
   (:documentation "LISP Web Spider")
-  (:export (#:fix-link
-	    #:fix-links
-	    #:find-links)
+  (:export #:fix-link
+	   #:fix-links
+	   #:find-links))
 
 (in-package :mesh.goof)
 
